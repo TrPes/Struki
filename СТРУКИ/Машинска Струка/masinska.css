@@ -1,0 +1,294 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+/* Техничар за производно машинство */
+.tzpm{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 170px;
+    font-size: 19px;
+}
+
+.tzpm h1{
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.slika1{
+    position: absolute;
+    width: 725px;
+    height: auto;
+    top: 100px;
+    right: 175px;
+}
+
+
+
+/* Машински техничар */
+.mt{ 
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    left: 56%;
+    margin-top: 11%;
+    font-size: 19px;
+}
+
+.mt h1{
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.slika2{
+    position: absolute;
+    width: 800px;
+    height: auto;
+    top: 4%;
+    right: 111.4%;
+}
+
+
+
+/* Машински техничар за моторни возила */
+ .mtzmv{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    margin-top: 11%;
+    margin-left: 170px;
+    font-size: 19px;
+}
+
+.mtzmv h1{
+    margin-bottom: 30px;
+}
+
+.slika3{
+    position: absolute;
+    width: 785px;
+    height: auto;
+    top: 156%;
+    right: 5%;
+}
+
+
+
+/* Техничар за компјутерско управување */
+.tzku{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    left: 56%;
+    margin-top: 11%;
+    font-size: 19px;
+}
+
+.tzku h1{
+    margin-bottom: 30px;
+}
+
+.slika4{
+    position: absolute;
+    width: 790px;
+    height: auto;
+    top: 15%;
+    right: 112%;
+}
+
+
+
+/* BUTTON 1,3 */
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn1{
+    width: 220px;
+    height: 85px;
+    position: absolute;
+    margin: auto;
+    left: 11.1%;
+    margin-top: 25px;
+    background-color: rgba(255,255,255,0.05);
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 4px;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn1:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        45deg,
+        transparent 50%,
+        rgba(255,255,255,0.03) 58%,
+        rgba(255,255,255,0.16) 67%,
+        transparent 68%
+    );
+    background-size: 200% 100%;
+    background-position: 165% 0;
+    transition: 0.7s;
+}
+.btn1:hover:after{
+    background-position: -20% 0;
+}
+.btn1:hover{
+    box-shadow: 8px 20px 27px rgba(0,0,0,0.25);
+    transform: translateY(-10px);
+    color: #62babb;
+}
+  
+
+/* BUTTON 2,4 */
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn2{
+    width: 220px;
+    height: 85px;
+    position: absolute;
+    margin: auto;
+    left: 11%;
+    margin-top: 25px;
+    background-color: rgba(255,255,255,0.05);
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 4px;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn2:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        45deg,
+        transparent 50%,
+        rgba(255,255,255,0.03) 58%,
+        rgba(255,255,255,0.16) 67%,
+        transparent 68%
+    );
+    background-size: 200% 100%;
+    background-position: 165% 0;
+    transition: 0.7s;
+    
+}
+.btn2:hover:after{
+    background-position: -20% 0;
+}
+.btn2:hover{
+    box-shadow: 8px 20px 27px rgba(0,0,0,0.25);
+    transform: translateY(-10px);
+    color: #62babb;
+}
+
+
+/* FOOTER */
+footer{
+    background: #141414;
+      height: auto;
+      width: 100vw;
+      padding-top: 40px;
+      color: white;
+      margin-top: 15%;
+  }
+  
+  .footer1 h2{
+    font-size: 1.8rem;
+    font-weight: 10px auto;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  
+  .footer1 p{
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .footer-bottom{
+    background: #62babb;
+    width: 100vw;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p{
+    font-size: 13px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  
+  .social{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 30px;
+  }
+  
+  .social li{
+      margin: 0 20px;
+      
+  }
+  
+  .social a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  .social a svg{
+      transition: color 0.4s ease;
+  }
+  
+  .social a:hover svg{
+      color: #62babb;
+  }
+  
+  .log{
+      position: relative;
+      width: 84px;
+      height: auto;
+      left: 47.8%;
+  }
